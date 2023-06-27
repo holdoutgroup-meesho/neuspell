@@ -4,6 +4,7 @@ __email__ = "jsaimurali001@gmail.com"
 
 from . import seq_modeling
 from . import off_the_shelf
+from . import noising
 from .corrector_bertsclstm import BertsclstmChecker
 from .corrector_cnnlstm import CnnlstmChecker
 from .corrector_lstmlstm import NestedlstmChecker
